@@ -1,5 +1,7 @@
 import Commentsform from './commentsform'
 import Comment from './comment';
+import Counter from './Counter';
+import Jokes from './Jokes';
 import './App.css'
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
   return (
     <>
      <Comment/>
+     <Counter/>
+     <Jokes/>
     </>
   );
 }
